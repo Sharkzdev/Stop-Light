@@ -1,0 +1,81 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.stop_light{
+    background-color: black;
+    width: 110px;
+    height: 300px;
+}
+
+
+
+.red_light{
+    margin-top: 20px;
+    position: absolute;
+    left: 18%;
+}
+.red_light_btn {
+    background-color: #ff6961;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 1px red;
+}
+.red_light_btn:hover{
+    background-color: #ff2015;
+    border: solid 3px #ff6961;
+}
+
+
+
+.yellow_light{
+    margin-top: 10px;
+    position: absolute;
+    left: 18%;
+    top: 34%;
+}
+.yellow_light_btn{
+    background-color:#EEEE9B;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 1px yellow;
+}
+.yellow_light_btn:hover{
+    background-color: yellow;
+    border: solid 3px #EEEE9B;
+}
+
+
+.green_light{
+    margin-top: 10px;
+    position: absolute;
+    left: 18%;
+    top: 66%; 
+}
+.green_light_btn{
+    background-color:#bfe3b4;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 1px green;
+}
+.green_light_btn:hover{
+    background-color: green;
+    border: solid 3px #bfe3b4;
+}
